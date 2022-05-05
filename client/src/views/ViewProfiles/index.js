@@ -37,7 +37,7 @@ export default function ViewProfiles () {
     return (
         <Row>
             <Col md={12} className={'mb-3'}>
-                <h4 className={'d-inline mr-3'}>View Profiles</h4>
+                <h4 className={'d-inline mr-3'}>View Profiles (Click to edit)</h4>
                 <Button 
                     className={'d-inline'}
                     onClick={() => launchModal(true)}
