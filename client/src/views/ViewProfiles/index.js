@@ -53,6 +53,7 @@ export default function ViewProfiles () {
                             <th>Name</th>
                             <th>Date of Birth</th>
                             <th>Location</th>
+                            <th>Team</th>
                             <th>Gender</th>
                             <th>Sports</th>
                             <th>About</th>
@@ -71,6 +72,7 @@ export default function ViewProfiles () {
                                     <td>{p.name}</td>
                                     <td>{dayjs(p.dateOfBirth).format('MM/DD/YYYY')}</td>
                                     <th>{p.location}</th>
+                                    <th>{p.team}</th>
                                     <th>{p.gender}</th>
                                     <th>{p.sports.join(', ')}</th>
                                     <th>{p.about}</th>

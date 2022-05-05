@@ -10,7 +10,7 @@ import ViewProfiles from './views/ViewProfiles';
 
 function App() {
     return (
-        <Container>
+        <Container fluid>
             <TopNav />
             <Routes>
                 <Route 
