@@ -4,10 +4,8 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "dev": "react-scripts start",
-    "start": "serve -s build",
-    "build": "react-scripts build",
-    "heroku-postbuild": "npm run build",
+    "start": "node app.js",
+    "heroku-postbuild": "cd client && npm install && npm run build",
     "test": "env PORT=3003 jest --runInBand",
     "test:watch": "jest --watch"
   },
