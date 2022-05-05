@@ -15,7 +15,6 @@ export default function ViewProfiles () {
 
     useEffect(() => {
         const getProfiles = async () => {
-            alert('running');
             const res = await axios.get('/api/profiles');
             if (res.status === 200) {
                 setProfiles(res.data);
