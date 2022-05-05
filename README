@@ -1,0 +1,15 @@
+# Athlete Profile Input Form
+
+## Description
+
+Full-stack SPA built with Node, React and Mongoose.
+
+## Getting Started
+
+### Installing
+
+run `npm i` to install all dependencies
+
+### Executing program
+
+run npm start

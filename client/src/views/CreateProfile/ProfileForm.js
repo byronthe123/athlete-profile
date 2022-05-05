@@ -82,7 +82,7 @@ export default function ProfileForm ({
                 <Button 
                     onClick={() => setViewSummary(true)}
                     className={'text-right'}
-                    // disabled={!isValid}
+                    disabled={!isValid}
                 >
                     Review
                 </Button>
